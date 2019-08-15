@@ -1,0 +1,40 @@
+html, body, div, a, ul, li, h4, h5, h6, pre, p, i, span, img, input, select, form, label,iframe,dd,dl,dt{
+  margin: 0;
+  padding: 0;
+  font-family: "宋体";
+  color: #333333;
+  font-size: 15px;
+}
+body {
+  background-color: #FFFFFF;
+}
+a {
+  text-decoration: none;
+  color: #323232;
+}
+a:hover{text-decoration: none!important;}
+ul, li {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+}
+.clearfloat:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0;
+}
+.clearfloat {
+  zoom: 1;
+}
+img {
+  border: 0;
+}
+input, button {
+  outline-style: none;
+}
+/*公用类属性*/
+.fl{float: left}
+.fr{float: right;}

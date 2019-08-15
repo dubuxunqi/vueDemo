@@ -1,0 +1,64 @@
+.wb-slider {
+    position: relative;
+    overflow: hidden;
+/*    width: 530px; 
+    height: 330px;*/ 
+}
+.wb-slider-conbox {
+    overflow: hidden;
+  /*  width: 3528px; */
+    position: relative; 
+  /*  top: 0px; 
+    left: -1764px;*/
+}
+.wb-slider-ctag {
+    position: relative;
+/*    width: 530px;
+    height: 330px;*/
+    float: left;
+}
+.wb-slider-ctag img {
+    width: 100%;
+    height: 100%;
+}
+
+.wb-slider-mask {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    font-size: 12px;
+    color: #fff;
+    background:rgba(0,0,0,0.5); 
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7f000000,endColorstr=#7f000000);
+}
+.wb-slider-mask .ellipsis {
+    margin-left: 10px;
+    width: 164px;
+    color: #fff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-decoration: none;
+}
+.wb-slider-switcher {
+    position: absolute;
+    right: 6px;
+    bottom:16px;
+    height: 10px;
+}
+.wb-slider-stag {
+    float: left;
+    margin-right: 15px;
+    height: 10px;
+    width: 10px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 50%;
+}
+.wb-slider-stag.active {
+    background: #0969AA;
+    border-radius: 50%;
+}
